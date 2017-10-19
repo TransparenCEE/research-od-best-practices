@@ -19,7 +19,7 @@
  
 @media all and (min-width: 768px) and (max-width: 1024px) {
 
-  .primary-title {
+  h1, .primary-title {
     font-size: 38px !important;
   }
 
@@ -69,7 +69,7 @@
  
 @media all and (min-width: 480px) and (max-width: 768px) { 
 
-  .primary-title {
+  h1, .primary-title {
     font-size: 32px !important;
   }
 
@@ -116,7 +116,7 @@
     width: inherit;
   }
 
-  .primary-title {
+  h1, .primary-title {
     font-size: 28px !important;
   }
   .second-title {
