@@ -87,11 +87,19 @@
 
 .main-title {
   color: $main-title-color;
-  max-width: 800px;
+  max-width: 950px;
   margin: 200px auto 100px auto;
-  font-size: 42px;
   text-align: center;
   font-family: $bold-font;
+
+  .primary-title, .second-title {
+    font-size: 42px;
+    margin: 0;
+  }
+
+  .primary-title {
+    margin-bottom: 10px;
+  }
 }
 
 .blocks {
@@ -318,7 +326,7 @@
   animation-name: fadeInRight;
 }
 
-  .fadeInLeft {
+.fadeInLeft {
   opacity: 0;
 }
 
@@ -326,6 +334,9 @@
   opacity: 0;
 } 
 
+.green {
+  color: $color-green;
+}
 
 @-webkit-keyframes fadeInLeft {
   0% {
