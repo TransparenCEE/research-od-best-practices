@@ -93,12 +93,14 @@
   font-family: $bold-font;
 
   .primary-title, .second-title {
-    font-size: 42px;
     margin: 0;
   }
-
   .primary-title {
+    font-size: 42px;
     margin-bottom: 10px;
+  }
+  .second-title {
+    font-size: 32px;
   }
 }
 
