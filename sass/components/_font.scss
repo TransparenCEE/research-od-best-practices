@@ -39,5 +39,5 @@
   }
 }
 
-@include font-face(Raleway, "/fonts/Raleway/RALEWAY-REGULAR", normal);
-@include font-face(Raleway-bold, "/fonts/Raleway/RALEWAY-BOLD", normal);
+@include font-face(Raleway, "../fonts/Raleway/RALEWAY-REGULAR", normal);
+@include font-face(Raleway-bold, "../fonts/Raleway/RALEWAY-BOLD", normal);
