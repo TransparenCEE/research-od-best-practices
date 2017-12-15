@@ -1,8 +1,12 @@
 html {
-  border: 15px solid white;
+  margin: 0;
+  padding: 0;
 }
+
 body {
   background: $body-bg;
   font-family: $main-font;
   font-weight: 300;
+  padding: 0;
+  margin: 0;
 }
