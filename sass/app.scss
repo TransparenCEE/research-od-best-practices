@@ -133,6 +133,20 @@
   margin-right: calc(8/12 * 100%);
 }
 
+.content > p {
+  text-align: justify;
+}
+
+p.bold {
+  font-weight: bold;
+  color: #49c0b7;
+}
+
+p.big-italic{
+  color: #6a89d3;
+  font-style: italic;
+}
+
 .left {
   text-align: left;
 }
