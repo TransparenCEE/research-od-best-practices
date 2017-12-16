@@ -137,6 +137,18 @@
   text-align: justify;
 }
 
+div.author-border {
+  margin-top: 1em;
+  border-top-style: solid;
+  border-top-color: #49c0b7;
+  border-top-width: 0.2em;
+  color: #49c0b7;
+}
+
+p.author {
+  text-align: center
+}
+
 p.bold {
   font-weight: bold;
   color: #49c0b7;
