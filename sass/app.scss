@@ -89,38 +89,21 @@
 .main-title {
   color: $main-title-color;
   max-width: 950px;
-  margin: 250px auto 100px auto;
+  margin: 50px auto 50px auto;
   text-align: center;
   font-family: $bold-font;
 
   .primary-title, .second-title {
     margin: 0;
+    font-weight: 900;
+    color: rgb(99, 108, 161)
   }
   h1, .primary-title {
-    font-size: 42px;
+    font-size: 44px;
     margin-bottom: 10px;
   }
   .second-title {
-    font-size: 32px;
-  }
-}
-
-.sub-title {
-  color: $main-title-color;
-  max-width: 950px;
-  margin: 200px auto 100px auto;
-  text-align: center;
-  font-family: $bold-font;
-
-  .primary-title, .second-title {
-    margin: 0;
-  }
-  h1, .primary-title {
     font-size: 20px;
-    margin-bottom: 10px;
-  }
-  .second-title {
-    font-size: 32px;
   }
 }
 
@@ -134,15 +117,11 @@
 }
 
 .content > p {
-  text-align: justify;
+  font-size: 14px;
 }
 
-div.author-border {
-  margin-top: 1em;
-  border-top-style: solid;
-  border-top-color: #49c0b7;
-  border-top-width: 0.2em;
-  color: #49c0b7;
+div.border_top {
+  color: rgb(125, 200, 180);
 }
 
 p.author {
@@ -151,7 +130,7 @@ p.author {
 
 p.bold {
   font-weight: bold;
-  color: #49c0b7;
+  color: rgb(125, 200, 180);
 }
 
 p.big-italic{
