@@ -149,9 +149,13 @@ a, a:hover, a:visited {
   color: #7dc8b4;
 }
 
-p.bold {
+.bold {
   font-weight: bold;
   color: rgb(125, 200, 180);
+}
+
+li {
+  margin: 10px 0;
 }
 
 p.big-italic{
@@ -214,7 +218,7 @@ p.big-italic{
 
   .nice-title {
     display: inline-block;
-    
+
     .title {
       border: 3px solid $color-purple;
       padding: 30px;
@@ -300,7 +304,7 @@ p.big-italic{
 }
 
 .title-text.attach {
-  padding: 0 40px; 
+  padding: 0 40px;
 }
 
 .shadow.attach {
@@ -384,7 +388,7 @@ p.big-italic {
 
 .fadeInRight {
   opacity: 0;
-} 
+}
 
 .green {
   color: $color-green;
