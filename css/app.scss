@@ -1,7 +1,9 @@
-@import 'components/font';
-@import 'components/variables';
-@import 'components/html';
-@import 'components/parallax';
+---
+---
+@import 'font';
+@import 'variables';
+@import 'html';
+@import 'parallax';
 
 
 .wrapper-container {
@@ -100,11 +102,17 @@
   }
   h1, .primary-title {
     font-size: 44px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    font-family: $main-title;
   }
   .second-title {
     font-size: 20px;
+    margin-bottom: 10px;
   }
+}
+
+.border-top {
+  margin-bottom: 10px;
 }
 
 .blocks {
@@ -117,7 +125,8 @@
 }
 
 .content > p {
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 div.border_top {
@@ -128,9 +137,27 @@ p.author {
   text-align: center
 }
 
-p.bold {
+p.author > b {
+  font-style: italic;
+
+  a, a:hover, a:visited {
+    color: #7dc8b4;
+  }
+}
+
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: #7dc8b4;
+}
+
+.bold {
   font-weight: bold;
   color: rgb(125, 200, 180);
+}
+
+li {
+  margin: 10px 0;
 }
 
 p.big-italic{
@@ -193,7 +220,7 @@ p.big-italic{
 
   .nice-title {
     display: inline-block;
-    
+
     .title {
       border: 3px solid $color-purple;
       padding: 30px;
@@ -279,7 +306,7 @@ p.big-italic{
 }
 
 .title-text.attach {
-  padding: 0 40px; 
+  padding: 0 40px;
 }
 
 .shadow.attach {
@@ -363,7 +390,7 @@ p.big-italic {
 
 .fadeInRight {
   opacity: 0;
-} 
+}
 
 .green {
   color: $color-green;
@@ -415,4 +442,4 @@ p.big-italic {
 
 
 
-@import 'components/media';
+@import 'media';
